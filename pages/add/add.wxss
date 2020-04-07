@@ -1,0 +1,6 @@
+
+
+.page{display: flex;flex-direction: column;height: 100%;position: absolute;width: 100%;}
+.page-t{width: 100%;height: 90%}
+.btns{flex: 1;display: flex;align-items: center;justify-content: space-around;background: #f88;line-height: 50rpx;color: #fff;}
+.btns .cancel,.btns .sure{line-height: 90rpx;height: 90rpx;}

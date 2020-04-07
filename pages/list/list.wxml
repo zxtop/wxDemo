@@ -1,0 +1,13 @@
+<view>
+  <scroll-view class="lists">
+    <block wx:for="{{lists}}">
+      <view class="list-i">
+        <view class="content" bindtap="edit" data-id="{{item.id}}">{{item.content}}</view>
+        <view class="time">创建时间：{{item.time}}</view>
+      </view>
+    </block>
+  </scroll-view>
+  <view class="add" bindtap="add">
+    <view class="add_text">添加</view>
+  </view>
+</view>
